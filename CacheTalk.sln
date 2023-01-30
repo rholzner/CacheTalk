@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Intro", "01_Intro", "{3639F81D-4822-4AA7-9700-FCF69A92AF70}"
+	ProjectSection(SolutionItems) = preProject
+		01.Intro\intro.md = 01.Intro\intro.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_inMemory", "02_inMemory", "{226B3F67-2C9A-4B96-B50A-6938ED771508}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Response", "03_Response", "{2CCB84E4-90D2-4965-9592-260B7F3AF814}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_OutPut", "04_OutPut", "{28E681E4-6A36-4882-BF82-D029CE3D8E0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_OutPut.Policy", "05_OutPut.Policy", "{1B24B176-502F-45B7-9F34-E288E9E5754F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_OutPut.Policy.DemoCartApi", "06_OutPut.Policy.DemoCartApi", "{023391E6-0DCA-4706-A616-E8C0BDAAD962}"
+	ProjectSection(SolutionItems) = preProject
+		06.OutPut.Policy.DemoCartApi\readme.md = 06.OutPut.Policy.DemoCartApi\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07_OutPutCustomStore", "07_OutPutCustomStore", "{279E80BC-9507-46B8-A0B9-B67C625D0AD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08_OutPutCustomStore.Epi", "08_OutPutCustomStore.Epi", "{7FD65E7D-E6B9-4F34-96C0-D0704E3114E5}"
+	ProjectSection(SolutionItems) = preProject
+		08.OutPutCustomStore.Epi\readme.md = 08.OutPutCustomStore.Epi\readme.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.inMemory", "02.inMemory\02.inMemory.csproj", "{8AB761F6-8788-4906-9521-F6A358752005}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Response", "03.Response\03.Response.csproj", "{8FB2AD9F-D2D2-4014-8CE0-C1D5BA0DCB02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.OutPut", "04.OutPut\04.OutPut.csproj", "{78ABB68E-08E7-4F53-B4B4-E6BD926870B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.OutPut.Policy", "05.OutPut.Policy\05.OutPut.Policy.csproj", "{6202C789-2D46-4AFB-BD49-9D68FE583D02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.OutPutCustomStore", "07.OutPutCustomStore\07.OutPutCustomStore.csproj", "{F675CB7D-84BA-4D09-B0E5-CC82FECE4B92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AB761F6-8788-4906-9521-F6A358752005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB761F6-8788-4906-9521-F6A358752005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB761F6-8788-4906-9521-F6A358752005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB761F6-8788-4906-9521-F6A358752005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB2AD9F-D2D2-4014-8CE0-C1D5BA0DCB02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB2AD9F-D2D2-4014-8CE0-C1D5BA0DCB02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB2AD9F-D2D2-4014-8CE0-C1D5BA0DCB02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB2AD9F-D2D2-4014-8CE0-C1D5BA0DCB02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78ABB68E-08E7-4F53-B4B4-E6BD926870B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78ABB68E-08E7-4F53-B4B4-E6BD926870B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78ABB68E-08E7-4F53-B4B4-E6BD926870B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78ABB68E-08E7-4F53-B4B4-E6BD926870B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6202C789-2D46-4AFB-BD49-9D68FE583D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6202C789-2D46-4AFB-BD49-9D68FE583D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6202C789-2D46-4AFB-BD49-9D68FE583D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6202C789-2D46-4AFB-BD49-9D68FE583D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F675CB7D-84BA-4D09-B0E5-CC82FECE4B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F675CB7D-84BA-4D09-B0E5-CC82FECE4B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F675CB7D-84BA-4D09-B0E5-CC82FECE4B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F675CB7D-84BA-4D09-B0E5-CC82FECE4B92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8AB761F6-8788-4906-9521-F6A358752005} = {226B3F67-2C9A-4B96-B50A-6938ED771508}
+		{8FB2AD9F-D2D2-4014-8CE0-C1D5BA0DCB02} = {2CCB84E4-90D2-4965-9592-260B7F3AF814}
+		{78ABB68E-08E7-4F53-B4B4-E6BD926870B4} = {28E681E4-6A36-4882-BF82-D029CE3D8E0F}
+		{6202C789-2D46-4AFB-BD49-9D68FE583D02} = {1B24B176-502F-45B7-9F34-E288E9E5754F}
+		{F675CB7D-84BA-4D09-B0E5-CC82FECE4B92} = {279E80BC-9507-46B8-A0B9-B67C625D0AD1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F5B98D1-5A4C-4A81-BA9F-2643502CE172}
+	EndGlobalSection
+EndGlobal
