@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>_09.OutPutCustomStore.Epi.CustomStore</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="EPiServer.CMS" Version="12.13.2" />
+		<PackageReference Include="Wangkanai.Detection" Version="5.2.0" />
+	</ItemGroup>
+
+</Project>

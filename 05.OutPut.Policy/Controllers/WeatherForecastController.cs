@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.OutputCaching;
 
 namespace _05.OutPut.Policy.Controllers;
 
@@ -19,7 +20,8 @@ public class WeatherForecastController : ControllerBase
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
-    public IEnumerable<WeatherForecast> Get()
+    [OutputCache(PolicyName = "CustomCacheTest")]
+    public IEnumerable<WeatherForecast> Get([FromQuery] string cq)
     {
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
         {
