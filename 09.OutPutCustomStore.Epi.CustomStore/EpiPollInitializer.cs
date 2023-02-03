@@ -24,6 +24,7 @@ public class EpiPollInitializer : IInitializableModule
 
         if (e.Content is IContent content)
         {
+            AsyncUtil.RunSync(() => outputCacheStore.EvictByTagAsync("epi", default).AsTask());
             AsyncUtil.RunSync(() => outputCacheStore.EvictByTagAsync(content.ContentLink.ID.ToString(), default).AsTask());
         }
     }

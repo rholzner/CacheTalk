@@ -47,7 +47,7 @@ public class CustomCachePolicy : IOutputCachePolicy
         context.AllowCacheStorage = true;
         context.AllowLocking = true;
         // Vary by any query by default
-        context.CacheVaryByRules.QueryKeys = "cq";
+        context.CacheVaryByRules.QueryKeys = "*";
 
         return ValueTask.CompletedTask;
     }

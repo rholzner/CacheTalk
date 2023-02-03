@@ -16,6 +16,7 @@ public class EpiOutputCachePolicy : IOutputCachePolicy
             return ValueTask.CompletedTask;
         }
 
+        context.Tags.Add("epi");
         context.Tags.Add(pageRouteHelper.ContentLink.ID.ToString());
 
         context.EnableOutputCaching = true;
