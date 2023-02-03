@@ -36,7 +36,9 @@ app.MapControllers();
 
 app.Run();
 
-
+/// <summary>
+/// https://learn.microsoft.com/en-us/aspnet/core/performance/caching/output?view=aspnetcore-7.0#cache-storage
+/// </summary>
 public class CustomOutputCacheStore : IOutputCacheStore
 {
     private readonly IMemoryCache memoryCache;

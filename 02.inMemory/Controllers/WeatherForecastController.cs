@@ -23,9 +23,9 @@ public class WeatherForecastController : ControllerBase
     private async ValueTask<IEnumerable<WeatherForecast>> DoWork(ILogger<WeatherForecastController> logger)
     {
         logger.LogDebug("DoWork:Getting data");
-        var getData = Enumerable.Range(1, 10).Select(async index =>
+        var getData = Enumerable.Range(1, 20).Select(async index =>
         {
-            await Task.Delay(TimeSpan.FromMilliseconds(200));
+            await Task.Delay(TimeSpan.FromMilliseconds(1000));
             return new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),

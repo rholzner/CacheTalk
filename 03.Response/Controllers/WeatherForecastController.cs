@@ -19,7 +19,7 @@ public class WeatherForecastController : ControllerBase
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
-    [ResponseCache(VaryByHeader = "User-Agent", Duration = 5)]
+    [ResponseCache(VaryByHeader = "User-Agent", Duration = 10)]
     public IEnumerable<WeatherForecast> Get()
     {
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast

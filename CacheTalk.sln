@@ -41,6 +41,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09_OutPutCustomStore.Epi.Cu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.OutPutCustomStore.Epi.CustomStore", "09.OutPutCustomStore.Epi.CustomStore\09.OutPutCustomStore.Epi.CustomStore.csproj", "{1DBC1C71-9F88-4F12-9BD0-D279ED92A9A6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_ResponseStatic", "03_ResponseStatic", "{9E2A1C4D-8D85-4941-9F6F-FAB22752D7A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.ResponseStatic", "03.ResponseStatic\03.ResponseStatic.csproj", "{8553CAA4-580E-4F3D-8B56-D0CC8537085B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,10 @@ Global
 		{1DBC1C71-9F88-4F12-9BD0-D279ED92A9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DBC1C71-9F88-4F12-9BD0-D279ED92A9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DBC1C71-9F88-4F12-9BD0-D279ED92A9A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8553CAA4-580E-4F3D-8B56-D0CC8537085B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8553CAA4-580E-4F3D-8B56-D0CC8537085B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8553CAA4-580E-4F3D-8B56-D0CC8537085B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8553CAA4-580E-4F3D-8B56-D0CC8537085B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +95,7 @@ Global
 		{F675CB7D-84BA-4D09-B0E5-CC82FECE4B92} = {279E80BC-9507-46B8-A0B9-B67C625D0AD1}
 		{D0AF52FF-62C2-4752-AB70-1060CE9B692B} = {7FD65E7D-E6B9-4F34-96C0-D0704E3114E5}
 		{1DBC1C71-9F88-4F12-9BD0-D279ED92A9A6} = {6442BDC8-1D2F-4008-9053-1FDE1B814134}
+		{8553CAA4-580E-4F3D-8B56-D0CC8537085B} = {9E2A1C4D-8D85-4941-9F6F-FAB22752D7A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F5B98D1-5A4C-4A81-BA9F-2643502CE172}
